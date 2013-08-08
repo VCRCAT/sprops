@@ -5,7 +5,6 @@ Spawnicons Download: https://dl.dropboxusercontent.com/u/10388108/modelpack/down
 
 Steam: http://steamcommunity.com/id/shadowscion/
 Youtube: https://www.youtube.com/user/shadowscion
-deviantArt: http://shadowscion.deviantart.com/
 
 This addon and these models were created by shadowscion aka unrezt.
 
