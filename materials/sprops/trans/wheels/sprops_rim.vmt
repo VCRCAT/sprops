@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "sprops/trans/wheels/sprops_rim"
+	"$bumpmap" "sprops/trans/wheels/sprops_rim_nrm"
+	"$model" "1"
+
+	"$HalfLambert" "1"
+
+	"$phong" "1"
+	"$phongboost" "0.15"
+	"$phongexponent" "5"
+	"$phongfresnelranges"	"[.25 1 4]"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[1 1 1]"
+}
