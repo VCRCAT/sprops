@@ -9,7 +9,7 @@ timer.Simple(120, function()
 		notification.AddLegacy("Duplicate SProps spawnlists found, remember to remove the old ones!", NOTIFY_HINT, 10)
 	end
 	
-	/* Check client revision. */
+	/* Check client revision. 
 	http.Fetch("http://shadowscions-construction-props.googlecode.com/svn/", function(contents)
 		if file.Exists("data/sprops_version.txt", "GAME") then
 			local client = tonumber(file.Read("data/sprops_version.txt", "GAME"))
@@ -20,4 +20,5 @@ timer.Simple(120, function()
 			end
 		end
 	end)
+	*/
 end)
