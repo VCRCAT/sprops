@@ -1,0 +1,17 @@
+"TableToKeyValues"
+{
+	"parentid"		"0"
+	"icon"		"icon16/plugin.png"
+	"id"		"900"
+	"contents"
+	{
+		"1"
+		{
+			"type"		"header"
+			"text"		"Enjoy!"
+		}
+
+	}
+	"name"		"SProps"
+	"version"		"3"
+}

@@ -1,0 +1,556 @@
+"TableToKeyValues"
+{
+	"parentid"		"900"
+	"icon"		"icon16/plugin_disabled.png"
+	"id"		"908"
+	"contents"
+	{
+		"1"
+		{
+			"type"		"header"
+			"text"		"Symbols"
+		}
+		"2"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_prd.mdl"
+		}
+		"3"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_com.mdl"
+		}
+		"4"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_colon.mdl"
+		}
+		"5"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_scolon.mdl"
+		}
+		"6"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_qmark.mdl"
+		}
+		"7"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_xmark.mdl"
+		}
+		"8"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_quote.mdl"
+		}
+		"9"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_tilde.mdl"
+		}
+		"10"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_lessthan.mdl"
+		}
+		"11"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_greaterthan.mdl"
+		}
+		"12"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_underscore.mdl"
+		}
+		"13"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_atsign.mdl"
+		}
+		"14"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_copy.mdl"
+		}
+		"15"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_trade.mdl"
+		}
+		"16"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_pdsign.mdl"
+		}
+		"17"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_dlsign.mdl"
+		}
+		"18"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_pound.mdl"
+		}
+		"19"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_pcnt.mdl"
+		}
+		"20"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_crt.mdl"
+		}
+		"21"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_and.mdl"
+		}
+		"22"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_apost.mdl"
+		}
+		"23"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_lpar.mdl"
+		}
+		"24"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_rpar.mdl"
+		}
+		"25"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_lbracket.mdl"
+		}
+		"26"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_rbracket.mdl"
+		}
+		"27"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_lcbracket.mdl"
+		}
+		"28"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_rcbracket.mdl"
+		}
+		"29"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_bar.mdl"
+		}
+		"30"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_plu.mdl"
+		}
+		"31"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_min.mdl"
+		}
+		"32"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_ast.mdl"
+		}
+		"33"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_div.mdl"
+		}
+		"34"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_equal.mdl"
+		}
+		"35"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_8a.mdl"
+		}
+		"36"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_8b.mdl"
+		}
+		"37"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_8c.mdl"
+		}
+		"38"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_16a.mdl"
+		}
+		"39"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_16b.mdl"
+		}
+		"40"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_note_16c.mdl"
+		}
+		"41"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_star_1.mdl"
+		}
+		"42"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_star_2.mdl"
+		}
+		"43"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_star_3.mdl"
+		}
+		"44"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_star_4.mdl"
+		}
+		"45"
+		{
+			"type"		"header"
+			"text"		"Numbers"
+		}
+		"46"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_0.mdl"
+		}
+		"47"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_1.mdl"
+		}
+		"48"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_2.mdl"
+		}
+		"49"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_3.mdl"
+		}
+		"50"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_4.mdl"
+		}
+		"51"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_5.mdl"
+		}
+		"52"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_6.mdl"
+		}
+		"53"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_7.mdl"
+		}
+		"54"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_8.mdl"
+		}
+		"55"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_9.mdl"
+		}
+		"56"
+		{
+			"type"		"header"
+			"text"		"Alphabet (Upper)"
+		}
+		"57"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_a.mdl"
+		}
+		"58"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_b.mdl"
+		}
+		"59"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_c.mdl"
+		}
+		"60"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_d.mdl"
+		}
+		"61"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_e.mdl"
+		}
+		"62"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_f.mdl"
+		}
+		"63"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_g.mdl"
+		}
+		"64"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_h.mdl"
+		}
+		"65"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_i.mdl"
+		}
+		"66"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_j.mdl"
+		}
+		"67"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_k.mdl"
+		}
+		"68"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l.mdl"
+		}
+		"69"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_m.mdl"
+		}
+		"70"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_n.mdl"
+		}
+		"71"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_o.mdl"
+		}
+		"72"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_p.mdl"
+		}
+		"73"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_q.mdl"
+		}
+		"74"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_r.mdl"
+		}
+		"75"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_s.mdl"
+		}
+		"76"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_t.mdl"
+		}
+		"77"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_u.mdl"
+		}
+		"78"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_v.mdl"
+		}
+		"79"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_w.mdl"
+		}
+		"80"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_x.mdl"
+		}
+		"81"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_y.mdl"
+		}
+		"82"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_z.mdl"
+		}
+		"83"
+		{
+			"type"		"header"
+			"text"		"Alphabet (Lower)"
+		}
+		"84"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_a.mdl"
+		}
+		"85"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_b.mdl"
+		}
+		"86"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_c.mdl"
+		}
+		"87"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_d.mdl"
+		}
+		"88"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_e.mdl"
+		}
+		"89"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_f.mdl"
+		}
+		"90"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_g.mdl"
+		}
+		"91"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_h.mdl"
+		}
+		"92"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_i.mdl"
+		}
+		"93"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_j.mdl"
+		}
+		"94"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_k.mdl"
+		}
+		"95"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_l.mdl"
+		}
+		"96"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_m.mdl"
+		}
+		"97"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_n.mdl"
+		}
+		"98"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_o.mdl"
+		}
+		"99"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_p.mdl"
+		}
+		"100"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_q.mdl"
+		}
+		"101"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_r.mdl"
+		}
+		"102"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_s.mdl"
+		}
+		"103"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_t.mdl"
+		}
+		"104"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_u.mdl"
+		}
+		"105"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_v.mdl"
+		}
+		"106"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_w.mdl"
+		}
+		"107"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_x.mdl"
+		}
+		"108"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_y.mdl"
+		}
+		"109"
+		{
+			"type"		"model"
+			"model"		"models/sprops/misc/alphanum/alphanum_l_z.mdl"
+		}
+	}
+	"name"		"Miscellaneous"
+	"version"		"3"
+}
