@@ -1,24 +1,21 @@
 if SERVER then return end
 
-timer.Simple(120, function()
-	/* Check for spawnlists. */
-	local lists = file.Find("settings/spawnlist/*-sprops.txt", "garrysmod")
-	if #lists == 0 then
-		notification.AddLegacy("SProps spawnlists were not installed correctly.", NOTIFY_HINT, 10)
-	elseif #lists == 2 then
-		notification.AddLegacy("Duplicate SProps spawnlists found, remember to remove the old ones!", NOTIFY_HINT, 10)
+local c_hash = string.Left( file.Read( ".git/FETCH_HEAD", "GAME" ), 40 )
+local fetch_url = "https://api.github.com/repos/shadowscion/sprops/commits?per_page=1"
+local fetch_reg = "\"sha\": \"(%w+)\","
+
+timer.Simple( 1, function()
+	-- Spawnlist Check
+	local c_lists = file.Find( "settings/spawnlist/*-sprops.txt", "garrysmod" )
+	if #c_lists == 0 then
+		chat.AddText( Color(225,225,255), "SProps spawnlists were not installed correctly!" )
 	end
-	
-	/* Check client revision. 
-	http.Fetch("http://shadowscions-construction-props.googlecode.com/svn/", function(contents)
-		if file.Exists("data/sprops_version.txt", "GAME") then
-			local client = tonumber(file.Read("data/sprops_version.txt", "GAME"))
-			local svn = tonumber(string.match(contents, "Revision ([0-9]+)"))
-			
-			if svn and client < svn then
-				notification.AddLegacy("SProps is out of date!", NOTIFY_HINT, 10)
-			end
+
+	-- Update Check
+	http.Fetch( fetch_url, function( fetch_str )
+		local g_hash = string.match( fetch_str, fetch_reg )
+		if c_hash != g_hash then
+			chat.AddText( Color(225,225,255), "SProps is either out of date, or not installed!" )
 		end
 	end)
-	*/
 end)

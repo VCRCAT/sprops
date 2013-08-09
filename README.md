@@ -14,7 +14,7 @@ Facepunch Thread: http://facepunch.com/showthread.php?t=1201734
 
 # Updating:  
 
-**Git:** To update using git, simply double click the included **sp_update.sh** file
+**Git:** To update using git, simply double click the included **git_update.sh** file.
 
 **Svn:** Right click on your repository folder, and choose the svn update option. 
 
