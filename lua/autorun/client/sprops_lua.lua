@@ -2,7 +2,7 @@ if SERVER then return end
 
 local c_hash = string.Left( file.Read( ".git/FETCH_HEAD", "GAME" ), 40 )
 local fetch_url = "https://api.github.com/repos/shadowscion/sprops/commits?per_page=1"
-local fetch_reg = "\"sha\": \"(%w+)\","
+local fetch_reg = "\"sha\":\"(%w+)\","
 
 timer.Simple( 1, function()
 	-- Spawnlist Check
